@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vis-test {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .vis-test1 {background: red;}
+        .vis-test2 {background: yellow;
+                    /* visibility: hidden;*/
+                    display: none;
+        }
+        .vis-test3 {background: green;}
+
+        .float-test {
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <h1>특정 요소 감추가</h1>
+    <div class="vis-test vis-test1"></div>
+    <div class="vis-test vis-test2"></div>
+    <div class="vis-test vis-test3"></div>
+
+    <h1>흐름 속성 확인</h1>
+    <div class="float">
+        <div class="float-test float-test1">111</div>
+        <div class="float-test float-test1">222</div>
+        <div class="float-test float-test1">333</div>
+        <div class="float-test float-test1">444</div>
+        <div class="float-test float-test1">555</div>
+    </div>
+
+    <br clear="both">
+
+    <h3>hello</h3>
+
+</body>
+</html>
